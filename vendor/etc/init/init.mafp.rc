@@ -1,0 +1,5 @@
+on boot
+   #add for ma_fingerprint
+   chown system system /dev/madev0
+   chmod 0660          /dev/madev0
+
